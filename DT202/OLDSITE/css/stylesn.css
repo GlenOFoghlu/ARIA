@@ -1,0 +1,274 @@
+﻿* { padding: 0; margin: 0; }
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF url('../../New%20Style/images/BG02.jpg') repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+}
+h1,h2,p{
+	margin: 0 10px;
+}
+h1, h2, h3, h4 {
+	color: #0153B4;
+}
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+h4 {
+	font-size: 13px;
+}
+
+ul {
+	list-style-image: url(../images/img07.html);
+}
+li {
+   list-style:none;
+}
+a {
+	text-decoration: none;
+	border-bottom: 1px dashed #CCCCCC;
+	color: #0153B4;
+}
+
+a:hover {
+	border-bottom: none;
+}
+
+a img {
+	border: none;
+}
+img { 
+float:right; 
+margin:10px; 
+}
+/* Banner */
+
+#banner {
+	 text-align: right;
+}
+/* Wrappers */
+#wrapper { 
+ 	margin: 0 auto;
+ 	width: 972px;
+}
+#L_wrapper{
+	margin: 0 auto;
+	width: 20px;
+	float: left;
+	/*display: list-item;*/
+}
+#R_wrapper{
+	margin: 0 auto;
+	width: 50px;
+	float: right;
+	/*display:list-item;*/
+}
+#header {
+ 	color: #FFF;
+ 	width: 950px;
+	float: left;
+ 	padding: 10px;
+ 	border: 1px solid #ccc;
+ 	height: 150px;
+    margin: 10px 0px 0px 0px;
+ 	background-image:url('../../New%20Style/images/headerrefit.png') ;
+ 	background-position:right;
+ 	background-repeat:no-repeat
+}
+#header h1{
+	color: #6699FF;
+	font-weight: bold;
+	font-size: 2em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#header h2{
+	padding: 25px 0px 0px 40px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFF;
+}
+/* News */
+.news {
+	float: left;
+	width: 200px;
+	padding: 0 0 0 21px;
+}
+/* Menu */
+#menu {
+	text-align: center;
+	width: 972px;
+	height: 152px;
+	margin: 0 auto;
+	padding-top: 7px;
+	background: url('../../New%20Style/images/img02a.gif') no-repeat left top;
+}
+#menu h1 {
+ 	font-size: 2.5em;
+ 	margin-top: 20;
+	color: #0153B4;
+}
+#menu ul {
+	margin: 0 0 0 0px;
+	padding: 0;
+	list-style: none;
+}
+#menu li {
+	display: inline;
+	text-align:center;
+}
+#menu a {
+    float: left;
+	margin: 0 3px 0 10px;
+	background: url('../../New%20Style/images/img04.jpg') no-repeat left 50%;
+	padding: 0px 0px 0px 15px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	color: #262626;
+}
+/* Navigation */
+#NavBar {
+ color: #FFF;
+ width: 950px;
+ float: left;
+ padding: 1px;
+ /*border: 1px solid #ccc;*/
+ height: 20px;
+ margin: 0px 0px 0px 0px;
+}
+#leftcolumnORG { 
+ color: #333;
+ /*border: 1px solid #ccc;*/
+ margin: 0px 0px 0px 0px;
+ padding: 5px;
+ height: 44px;
+ width: 228px;
+ float: left;
+ display:list-item;
+}
+#leftnews {
+ width: 678px;
+ float: left;
+ color: #333;
+ /*border: 1px solid #ccc;*/
+ margin: 0px 0px 0px 0px;
+ padding: 1px;
+ height: 44px;
+ display: inline;
+}
+
+#leftcolumn {
+ width: 253px;
+ float: left;
+ color: #333;
+ /*border: 1px solid #ccc;*/
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ height: 44px;
+ display: inline;
+}
+#rightcolumn-OLD { 
+ float: right;
+ color: #333;
+ /*border: 1px solid #ccc;*/
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ height: 350px;
+ width: 678px;
+ display:list-item;
+}
+
+#rightcolumn {
+ width: 678px;
+ float: right;
+ color: #333;
+ /*border: 1px solid #ccc;*/
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ height: 44px;
+ display: inline;
+}
+#edge{
+  padding:5px;
+  list-style: none;
+}
+/* Curved White boxes */
+
+.corners{
+  display:block;
+}
+.corners *{
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#fff
+}
+.corners1{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #fff;
+  border-right:1px solid #fff;
+  background:#fff
+}
+.corners2{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #fff;
+  border-right:1px solid #fff;
+  background:#fff
+}
+.corners3{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #fff;
+  border-right:1px solid #fff;
+}
+.corners4{
+  border-left:1px solid #fff;
+  border-right:1px solid #fff
+}
+.corners5{
+  border-left:1px solid #fff;
+  border-right:1px solid #fff
+}
+.cornersfg{
+	background-position: inherit;
+	background: #fff;
+	padding-left:10px;
+}
+
+/* Footer */
+
+#footer {
+	
+	height: 100px;
+}
+
+#footer p {
+	margin: 0;
+	padding: 40px 0 0 0;
+	text-align: center;
+	font-size: 11px;
+	color: #000000;
+}
+#footer a {
+	color: #000000;
+}

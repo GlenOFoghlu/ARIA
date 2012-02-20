@@ -1,0 +1,52 @@
+/*<style type="text/css">*/
+body {
+	margin: 0;
+	padding: 0;
+	background: red;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	/*width: 150px;*/
+}
+#content {
+	float: left;
+	width: 70px; /*530px*/
+}
+.corners{display:block}
+.corners *{
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#fff
+  /*width: 150px;*/
+}
+.corners1{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #fff;
+  border-right:1px solid #fff;
+  background:#bf0b00}
+.corners2{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #fff;
+  border-right:1px solid #fff;
+  background:#ce0c00}
+.corners3{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #fff;
+  border-right:1px solid #fff;}
+.corners4{
+  border-left:1px solid #fff;
+  border-right:1px solid #fff}
+.corners5{
+  border-left:1px solid #fff;
+  border-right:1px solid #fff}
+.cornersfg{
+  background:#fff}
+/*</style>*/

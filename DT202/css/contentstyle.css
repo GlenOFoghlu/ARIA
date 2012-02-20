@@ -1,0 +1,142 @@
+﻿table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ul {
+	list-style: none;
+}
+q:before,q:after,
+blockquote:before,blockquote:after {
+	content: "";
+}
+a:focus{
+	color: #FF9900 ;
+}
+h1 {
+	font-size:x-large;
+	color: #E0E6FF;
+	text-align: center;
+	padding:10px 0 5px 0;
+}
+
+h2 {
+	text-align: center;
+	color: #E0E6FF;
+	width: 75%;
+	margin: 0 auto;
+}
+h3 {
+	text-align: center;
+	color: #E0E6FF;
+}
+
+img.left{
+	 float:left
+}
+img.right{
+	float:right;
+}
+p{
+	color: #000000;
+}
+ol {
+	list-style: decimal;
+	font-size: 24px;
+	width: 400px;
+	padding: 30px 0 0 60px;
+	margin: 0 auto;
+}
+ul#navigation {
+	height: 36px;
+	/*padding: 20px 20px 0 30px;*/
+	width:inherit;
+	/*margin: 0 auto;*/
+	position: relative;
+	overflow: hidden;
+}
+
+ul#navigation li {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	float: left;
+	width: 100px;
+	margin: 0 10px 0 0;
+	background-color: #E0E6FF;
+	border: 1px solid #E0E6FF;
+	position: relative;
+	z-index: 1;
+}
+
+ul#navigation li.selected {
+	z-index: 3;
+}
+
+ul#navigation li.shadow {
+	width:inherit;
+	height: 2px;
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+	border: none;
+	background: none;
+	z-index: 2;
+	-webkit-box-shadow: #E0CCD6 0 -2px 6px;
+	-moz-box-shadow: #E0CCD6 0 -2px 6px;
+	box-shadow: #E0CCD6 0 -2px 6px;
+}
+
+ul#navigation li a:link, ul#navigation li a:visited {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	display: block;
+	text-align: center;
+	width: 100px;
+	height: 40px;
+	line-height: 36px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 1px;
+	outline: none;
+	float: left;
+	background: #660033;
+	-webkit-transition: background-color 0.3s linear;
+	-moz-transition: background-color 0.3s linear;
+	-o-transition: background-color 0.3s linear;
+}
+
+ul#navigation li a:hover {
+	background-color: #B24C7F;
+}
+ul#navigation li a:focus {
+	background-color: #ff6600;
+}
+
+
+ul#navigation li.selected a:link, ul#navigation li.selected a:visited {
+	color: #660033;
+	border: solid 1px #fff;
+	-webkit-transition: background-color 0.2s linear;
+	background: -moz-linear-gradient(top center, #D1B2C2, #E0E6FF 80%) repeat scroll 0 0 #E0E6FF;
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(.2, #E0E6FF),color-stop(.8, #D1B2C2));
+	background-color: #E0E6FF;
+}
+
+#content {
+	/*width:inherit;*/
+	width: 100%;
+	background: #E0E6FF;
+	padding: 0 0 50px 0;
+	/*margin: 0 auto;*/
+	border-radius: 1px 10px 10px 10px;
+	-moz-border-radius: 1px 10px 10px 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	
+}
